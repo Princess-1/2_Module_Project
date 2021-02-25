@@ -25,27 +25,28 @@ An important aspect of data analysis is knowing how to ask the right questions t
 ## Order of Operation
 ### Data Importing and Cleaning
 As mentioned earlier the data cleaning process can be found in the [**Data_Cleaning.ipynb**](/Data_Cleaning.ipynb) notebook. I started by importing the data with the use of **_Pandas_** and taking a look at columns and some of the rows the data entails. Along with this repo is a file that explains what the values in each [**_Column_**](/column_names.md) represents. This is the list of what each _Column_ represents:
-    * **id** - unique identified for a house
-    * **dateDate** - house was sold
-    * **pricePrice** -  is prediction target
-    * **bedroomsNumber** -  of Bedrooms/House
-    * **bathroomsNumber** -  of bathrooms/bedrooms
-    * **sqft_livingsquare** -  footage of the home
-    * **sqft_lotsquare** -  footage of the lot
-    * **floorsTotal** -  floors (levels) in house
-    * **waterfront** - House which has a view to a waterfront
-    * **view** - Has been viewed
-    * **condition** - How good the condition is ( Overall )
-    * **grade** - overall grade given to the housing unit, based on King County grading system
-    * **sqft_above** - square footage of house apart from basement
-    * **sqft_basement** - square footage of the basement
-    * **yr_built** - Built Year
-    * **yr_renovated** - Year when house was renovated
-    * **zipcode** - zip
-    * **lat** - Latitude coordinate
-    * **long** - Longitude coordinate
-    * **sqft_living15** - The square footage of interior housing living space for the nearest 15 neighbors
-    * **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors
+* **id** - unique identified for a house
+* **dateDate** - house was sold
+* **pricePrice** -  is prediction target
+* **bedroomsNumber** -  of Bedrooms/House
+* **bathroomsNumber** -  of bathrooms/bedrooms
+* **sqft_livingsquare** -  footage of the home
+* **sqft_lotsquare** -  footage of the lot
+* **floorsTotal** -  floors (levels) in house
+* **waterfront** - House which has a view to a waterfront
+* **view** - Has been viewed
+* **condition** - How good the condition is ( Overall )
+* **grade** - overall grade given to the housing unit, based on King County grading system
+* **sqft_above** - square footage of house apart from basement
+* **sqft_basement** - square footage of the basement
+* **yr_built** - Built Year
+* **yr_renovated** - Year when house was renovated
+* **zipcode** - zip
+* **lat** - Latitude coordinate
+* **long** - Longitude coordinate
+* **sqft_living15** - The square footage of interior housing living space for the nearest 15 neighbors
+* **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors
+
 With the use of one of _Pandas_ many functions namely **.shape** I know that I am working with a dataset that contains **21597 Rows** and **21 Columns**. Once I got more acquainted to the dataset I moved on with the data cleaning process. which includes:
 * Checking for _duplicates_ in dataset.
 * Checking for and replacing _NULL Values_.
