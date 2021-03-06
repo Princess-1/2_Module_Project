@@ -56,7 +56,7 @@ With the use of one of _Pandas_ many functions namely **.shape** I know that I a
 The next step in getting the data prepared for _Modeling_ is to perform some **_Exploratory Data Analysis_**. This process consists of:
 * Identifying **Outliers** in the dataset and dealing with them appropriately.
 * **Feature Engineering** new columns when necessary.
-* Checking if data is _Normally Distributed_
+* Checking if data is **Normally Distributed**
 * Checking for **Multicollinearity** among predictors.
 * Dealing with **Categorical** variables, and creating dummy variables when needed.
 * Formulating questions to get **Insights** on the data.
