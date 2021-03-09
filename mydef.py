@@ -32,6 +32,4 @@ def roundup(row):
         row += .25
     elif row == 3.25:
         row += .25
-    else:
-        row == row
     return row
