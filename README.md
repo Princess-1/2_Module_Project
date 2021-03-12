@@ -103,16 +103,16 @@ The last act of my EDA process is to answer the questions defined earlier.
 The final step is to build model with the improved data obtained from the data analysis process. In order to build a good Linear Regression model there are 3 assumptions to be met: _**Linearity**_, _**Normality**_, and _**Homoscedasticity**_. No single feature seem to make a very good Linear regression as most failed to mean 1 or more assumptions. The next course of action is to construct a _**Multiple Linear Regression Model**_.
 _**Model Summary**_
 ![Model_Summary.png](images/Model_summary.png)
-> The final model has a $ R^2 $ of _**0.575**_, this tells us the the model explains _**58%**_ of the variability of the response data around it's mean.
+> The final model has a $ R^2 $ of _**0.663**_, this tells us the the model explains _**66%**_ of the variability of the response data around it's mean.
 
 ![Model_Distplot.png](images/Model_Distplot.png)
 ![Model_qq.png](images/Model_qq.png)
 > Looking at the displot graph ans QQ plot we can see that the data is moderately normal.
 
 ## Conclusion
-* If a property is near a Waterfront we expect it to cost about 298,925 more.
-* Renovating a property can increase the value by 99,057.
-* An increase in the Grade due to renovations can bring the house value up by 126,094.
-* In addition to grade an increase in the Condition of a house causes an increase of 43,062 in price of property.
-* Properties with Basement cost an additional 30,591.
-* The further away a house is from Bellevue city the less it cost, ie, 11,818 is lost the further away a property is from Bellevue. 
+* If a property is near a Waterfront we expect it to cost about 285,214 more.
+* The price of a house decreases by 1,413 for every new construction made yearly.
+* An increase in the Grade due to renovations can bring the house value up by 86,864.
+* An increase in Lat is equivalent to an increase of 250,628 for a property.
+* A sqft unit increase is equivalent to an increase of 122 in price
+* The further away a house is from Bellevue city the less it cost, ie, 11,804 is lost the further away a property is from Bellevue. 
