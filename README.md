@@ -72,13 +72,23 @@ The next step in getting the data prepared for _Modeling_ is to perform some **_
 ![Living.png](Images/Living.png)
 
 * **Multicollinearity:** The next step in my EDA process was to check for multicollinearity among _independent_ variables. Multicollinearity among independent features can have a _negative_ impact on our regression models so it is best to get rid of highly **correlated** features.
+
+
 ![Multico.png](Images/Multico.png)
+
+
 > For this dataset I chose 0.75 as the threshold for multicollinearity and if you take a close look at the heatmap you can see that **'sqft_living'** and **'sqft_above'** have a correlation of **_0.82_** which is higher than the set thershold. I decided to drop 'sqft_above' as it was a lot less correlated to our targer variable 'price'
+
 
 ![Corr.png](Images/Corr.png)
 
+
 * **Dummy Variables:** Before asking some questions to gain further insights on the data, I dealt with the **Catergorical** variables in the dataset
+
+
 ![Dummy.png](Images/Dummy.png)
+
+
 > Asides from _Waterfront_, _Basement_, and _Renovated_(already 1's and 0's and don't need any further transformations) the image shows us all the categorical features present in the dataset. There are 2 types of Catergorical variables **_Norminal_** and **_Ordinal_** variables. Norminal variables are variables that have two or more categorical values, but do not have an _intrinsic order_. Ordinal variables like norminal variables have two or more categorical variables but unlike norminal, ordinal categories can be ordered or ranked. Of all the displayed categorical variables only 2 features were Norminal and need to be transformed through **One-Hot Encoding**.
 
 #### Insights
@@ -108,7 +118,11 @@ _**Model Summary**_
 > The final model has a $ R^2 $ of _**0.663**_, this tells us the the model explains _**66%**_ of the variability of the response data around it's mean.
 
 ![Model_Displot.png](Images/Model_Displot.png)
+
+
 ![Model_qq.png](Images/Model_qq.png)
+
+
 > Looking at the displot graph ans QQ plot we can see that the data is moderately normal.
 
 ## Conclusion
