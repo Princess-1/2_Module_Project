@@ -88,7 +88,9 @@ The last act of my EDA process is to answer the questions defined earlier.
 > The further north we go the higher the price of a property. This could be for a number of reasons we will explore further later.
 
 * **Q2: Do _renovated_ houses cost more?**
+
 ![Renovated.png](Images/Renovated.png)
+
 > It's very clear to see the difference in price of renovated house from houses that have not been renovated.
 
 * **Q3: What is the impact of _renovations_ on house _grades_ and how do they both affect house prices?**
@@ -102,10 +104,10 @@ The last act of my EDA process is to answer the questions defined earlier.
 ### Regression: Final Model
 The final step is to build model with the improved data obtained from the data analysis process. In order to build a good Linear Regression model there are 3 assumptions to be met: _**Linearity**_, _**Normality**_, and _**Homoscedasticity**_. No single feature seem to make a very good Linear regression as most failed to mean 1 or more assumptions. The next course of action is to construct a _**Multiple Linear Regression Model**_.
 _**Model Summary**_
-![Model_Summary.png](Images/Model_summary.png)
+![Model_Summary.png](Images/Model_Summary.png)
 > The final model has a $ R^2 $ of _**0.663**_, this tells us the the model explains _**66%**_ of the variability of the response data around it's mean.
 
-![Model_Distplot.png](Images/Model_Distplot.png)
+![Model_Distplot.png](Images/Model_Displot.png)
 ![Model_qq.png](Images/Model_qq.png)
 > Looking at the displot graph ans QQ plot we can see that the data is moderately normal.
 
